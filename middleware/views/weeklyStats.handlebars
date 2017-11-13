@@ -1,0 +1,24 @@
+<div id="csricodexmlab" class="container-fluid bg-3 text-center jumbotron">
+    <h2 class="margin" id="heading1"><span style="color:lightblue">{{week}}</span> <span style="color: white">Sales Statistics</span></h2>
+</div>
+
+<div id="output">
+    <div>
+        <table style="width:100%" class="table table-hover">
+            <tr id="table1">
+                {{#key}}
+                    <th id="table1">{{Description}}</th>
+                    <td id="table1"><strong><span style="color:#fff">{{Item}} {{Category}}</span></strong></td>
+                    {{#if Profit}}
+                        <th id="table1">
+                            <span style="color:#059407">Profit</span>
+                        </th>
+                    {{else}}
+                        <th id="table1">Quantity</th>
+                    {{/if}}
+                    <td class="profit" id="table1">{{Quantity}} {{Profit}}</td>
+            </tr>
+            {{/key}}
+        </table>
+    </div>
+</div>

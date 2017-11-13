@@ -1,0 +1,32 @@
+{
+  "name": "nodejsHerokuDeploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^2.0.1",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.5.3",
+    "express-session": "^1.13.0",
+    "install": "^0.7.3",
+    "npm": "^3.8.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radlee/nodejsHerokuDeploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radlee/nodejsHerokuDeploy/issues"
+  },
+  "homepage": "https://github.com/radlee/nodejsHerokuDeploy#readme"
+}

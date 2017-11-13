@@ -1,0 +1,31 @@
+<div id="csricodexmlab" class="container-fluid bg-3 text-center jumbotron">
+  <h2 class="margin">Manage Profiles</h2>
+</div>
+<p>
+  <a style="color:white" class="btn btn-success btn-lg" href="/users/add">
+    <span class="glyphicon glyphicon-plus"></span> Add new user
+  </a>
+</p>
+
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr id="table1" id="Heading">
+        <th id="table1" >Username</th>
+        <th id="table1" >Email</td>
+        <th id="table1" ></th>
+        <th id="table1" ></th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#users}}
+      <tr>
+        <td id="table1" >{{username}}</td>
+        <td id="table1" >{{email}}</td>
+        <td id="table1" ><a href="/users/edit/{{user_id}}">Edit</a></td>
+        <td id="table1" ><a href="/users/delete/{{user_id}}">Delete</a></td>
+      </tr>
+      {{/users}}
+    </tbody>
+  </table>
+  </div>

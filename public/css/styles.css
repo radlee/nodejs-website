@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=raleway');
+.nav-container .navbar-brand {
+  height: 70px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+color: #CFCFCF;
+background-color: rgba(0, 0, 0, 0.72) !important;
+}
+.navbar-toggle .navbar-default:hover {
+background-color: rgba(0, 0, 0, 0.58);
+}
+.navbar-default .navbar-toggle {
+border-color: #000;
+}
+
+.subtags{
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: rgba(0, 0, 0, 0.35);
+}
+.subtagHeadings{
+  color: rgb(255, 240, 80);
+}
+.paragraph{
+  margin: 0 0 10px;
+  color: rgb(218, 218, 218);
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center
+}
+#blogparagraph{
+  margin: 0 0 10px;
+  color: rgb(230, 228, 228);
+  font-size: 20px;
+  line-height: 1.5;
+}
+h1, h2, h5, h6{
+  color: #E1E1E1;
+}
+
+.thumbnail {
+background-color: rgba(0, 0, 0, 0);
+}
+
+.flash{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  line-height: 2;
+  background-color: black;
+}
+
+input, textarea {
+background-color: rgba(0, 0, 0, 0.51) !important;
+background-image: none;
+color: rgb(0, 0, 0);
+}
+
+/*DropDown BG color*/
+.nav-pills>li>a {
+  border-radius: 4px;
+  background-color: red;
+  background-color: rgb(172, 224, 255);
+}
+input{
+  text-align: center;
+}
+
+.form-group{
+  text-align: center;
+}
+
+/*Theme image*/
+.jumbotron {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 8px;
+  font-weight: lighter;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.69) !important;
+  /*background-image: url("../img/AWD.png");*/
+  background-size: cover;
+}
+/*Center everything. For mobile view*/
+.col-md-4{
+  text-align: center;
+}
+/*Space after the button*/
+.form-area{
+  padding-bottom: 20px;
+}
+/*Company Logo at the Bottom of the div*/
+.company-logo {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  position: relative;
+  width: 300px;
+  text-align: center;
+  float: right;
+}
+
+#warning{
+  text-align: center;
+  color: rgb(255, 157, 20);
+}
+#success{
+  text-align: center;
+  color: rgb(39, 248, 35);
+}
+.form-box{
+  text-align: center;
+}
+
+/*Force Change boder color and background color on the navbar both to white*/
+.navbar-default {
+background-color: rgba(3, 8, 147, 0.15) !important;
+border-color: rgba(3, 8, 147, 0.15) !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #FECD2E;
+}
+
+/*Active tab color Change*/
+.active a {
+  background-color: white !important;
+}
+footer{
+  padding: 30px;
+}
+
+.company-logo{
+  float: right;
+}
+#dropdown-col{
+  float: left;
+}
+/*--Style CheckBoxes--*/
+/*-----------------------*/
+/*From DevTips Tut*/
+label{
+  cursor: pointer;
+  font-size: 30px;
+  color: #666;
+}
+
+/*Target the inputs of type checkbox*/
+/*Using Pre-Advanced Selectors'*/
+input[type="checkbox"]{
+  display: none;
+}
+.label-text:before{
+  content: "\f096";
+  font-family: "FontAwesome";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  width: 1em;
+  display: inline-block;
+  margin-right: 5px;
+}
+/*Change icon and color when checked*/
+:checked + .label-text:before{
+  content: "\f14a";
+  color: #0683e9;
+}
+.form-control{
+  color: #EEE8E8;
+  border-radius: 0px;
+  border: 1px solid #01004D;
+
+}
+
+/*Center Menu links in dropdown menu on modile view*/
+.nav>li>a {
+  margin-top: 16px;
+  text-align: center;
+}
+.nav>li>a:hover{
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.72) !important;
+}
+
+.heading{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  line-height: 2;
+  background-color: rgba(0, 0, 0, 0.22);
+}
+
+/*Buttons*/
+
+.btn-default {
+  color: #FEFEFE;
+  background-color: #00B4C6;
+  border-color: #00B4C6;
+  border-radius: 0px;
+}
+.btn-default:hover {
+  color: #01004D;
+  border-color: #01004D;
+  background-color: white !important;
+  border-radius: 0px;
+}
+
+
+#cancel{
+  background: rgba(82, 5, 14, 0.66);
+  border-color: rgba(82, 5, 14, 0.66);
+}
+
+#signin, #submit{
+  border-radius: 0px;
+  background: rgba(1, 0, 77, 0.51);
+  border-color: rgba(1, 0, 77, 0.51);
+}
